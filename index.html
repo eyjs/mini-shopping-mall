@@ -8,32 +8,30 @@
     <script src="src/main.js" defer></script>
   </head>
   <body>
-    <header class="logo">
-      <img class="logo__img" src="/img/logo.png" alt="" />
-    </header>
-    <nav class="filter">
-      <button><img src="img/blue_t.png" alt="" /></button>
-      <button><img src="img/blue_p.png" alt="" /></button>
-      <button><img src="img/blue_s.png" alt="" /></button>
-      <button>blue</button>
-      <button>Yellow</button>
-      <button>Pink</button>
-    </nav>
-    <section class="item">
-      <ul class="list">
-        <li class="item-box">
-          <div class="image"><img src="img/blue_p.png" alt="" /></div>
-          <div class="name"><span>male, large size</span></div>
-        </li>
-        <li class="item-box">
-          <div class="image"><img src="img/blue_s.png" alt="" /></div>
-          <div class="name"><span>female, large size</span></div>
-        </li>
-        <li class="item-box">
-          <div class="image"><img src="img/blue_t.png" alt="" /></div>
-          <div class="name"><span>male, large size</span></div>
-        </li>
-      </ul>
-    </section>
+    <!-- logo -->
+    <img class="logo" src="/img/logo.png" alt="Logo" />
+    <!-- Buttons -->
+    <div class="buttons">
+      <button class="btn">
+        <img src="img/blue_t.png" alt="" class="imgBtn" />
+      </button>
+      <button class="btn">
+        <img src="img/blue_p.png" alt="" class="imgBtn" />
+      </button>
+      <button class="btn">
+        <img src="img/blue_s.png" alt="" class="imgBtn" />
+      </button>
+      <button class="btn colorBtn blue">blue</button>
+      <button class="btn colorBtn yellow">Yellow</button>
+      <button class="btn colorBtn pink">Pink</button>
+    </div>
+
+    <!-- Items -->
+    <ul class="items">
+      <li class="item">
+        <img src="img/blue_t.png" alt="tshirt" class="item__thumbnail" />
+        <span class="item__description">main, large</span>
+      </li>
+    </ul>
   </body>
 </html>
