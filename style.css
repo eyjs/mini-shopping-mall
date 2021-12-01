@@ -78,7 +78,7 @@ body {
 }
 
 .items {
-  background-color: salmon;
+  background-color: var(--color-black);
   width: 60%;
   height: 60%;
   list-style: none;
