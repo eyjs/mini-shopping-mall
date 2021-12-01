@@ -15,3 +15,6 @@
 ### 2. CSS 연습
 
 ### 3. 간단한 Data Read & Filter 구현 연습
+
+## 시연 영상
+![shopping-mall](https://user-images.githubusercontent.com/58211026/144173561-dd0a3560-e805-4e43-9c7a-78bc96671797.gif)
