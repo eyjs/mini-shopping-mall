@@ -15,7 +15,7 @@
             "image": "../img/blue_s.png"
         },        
         {
-            "type":"tshirts",
+            "type":"tshirt",
             "gender":"male",
             "size": "large",
             "color": "blue",
@@ -36,7 +36,7 @@
             "image": "../img/pink_s.png"
         },        
         {
-            "type":"tshirts",
+            "type":"tshirt",
             "gender":"female",
             "size": "small",
             "color": "pink",
@@ -57,7 +57,7 @@
             "image": "../img/yellow_s.png"
         },        
         {
-            "type":"tshirts",
+            "type":"tshirt",
             "gender":"female",
             "size": "medium",
             "color": "yellow",
